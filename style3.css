@@ -1,0 +1,145 @@
+
+                body {
+                    font-family: 'Times New Roman', Times, serif;
+                }
+
+                h1 {
+                    text-align: center;
+                    font-size: max(3vw, 1.6em);
+                    text-decoration: none #a39785;
+                    margin-top: 0;
+                    color: #ff6900;
+                    
+                }
+
+                .Kopfteil {
+                    background-image: linear-gradient(transparent 25%, white), url(assets/Backgroundimage-Freiheit.png);
+                    display: flex;
+                    flex-direction: column;
+                }
+
+            
+
+                .Firmenlogo {
+                    font-size: 2vw, 1.5em;
+
+                }
+
+                .Telefonkontakt {
+                    display: flex;
+                    flex-direction: column;
+
+                }
+
+                .Kontaktnummer {
+                    text-align: center;
+                }
+
+                .MeineRettig {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .MeineRettigundPartner {
+                    text-align: right;
+                }
+
+                h2 {
+                    text-align: center;
+                    color: #ff6900;
+                }
+
+                .Hauptteil {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                }
+
+                .Hauptteil-Rahmen {
+                    text-align: center;
+
+
+                }
+
+                .Hauptteil-Inhalt {
+                    font-size: 1.7em;
+                    color: rgb(169,184,195);
+
+                }
+
+                #navibar {
+                    display: inline;
+                    width: 40px;
+                    background-color: black;
+                    margin-left: 5px;
+                    padding: 5px;
+                }
+                
+                ul a {
+                    list-style-type: none;
+                    padding: 50px;
+                    width: 3px;
+                    background-color: rgba(165, 19, 165, 0);
+                    display: inline;
+                    text-align: center;
+                    height: 40px;
+                    overflow: auto;
+                    float: left;
+                    border-style: double;
+                    font-weight: bold;
+                }
+                
+                li a {
+                    color: rgb(7, 6, 6);
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-weight: normal;
+                    border-style: double;
+                    width: 18%;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    border-color: rgb(212, 212, 54);
+                    border-left: 2;
+                    border-right: 2;
+                    border-top: 2;
+                    border-bottom: 2;
+                    border: 17px;
+                    display: inline;
+                    float: left;
+                }
+                
+                li a.aktiv {
+                    margin: 0;
+                    background-color: #45474d;
+                    text-align: center;
+                    columns: rgb(204, 36, 36);
+                    font-size: 25px;
+                    font-weight: bold;
+                    display: inline;
+                    border-radius: 15px;
+                    transition: 1ms;
+                }
+                
+                #li.aktiv.red {
+                    background-color: aqua;
+                }
+                
+                #li.aktiv.green {
+                    background-color: rgb(243, 11, 11);
+                }
+                
+                #li.aktiv.yellow {
+                    background-color: rgb(165, 238, 238);
+                }
+                
+                li a:hover {
+                    background-color: rgb(25, 198, 211);
+                }
+
+            
+
+
+
+
